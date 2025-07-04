@@ -1,0 +1,50 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f9f9f9;
+  margin: 0;
+  padding: 0;
+}
+.main-content {
+  max-width: 500px;
+  margin: 30px auto;
+  background: #fff;
+  padding: 24px;
+  border-radius: 10px;
+  box-shadow: 0 6px 24px #0001;
+}
+.navbar {
+  background: #222;
+  padding: 16px;
+  display: flex;
+  gap: 18px;
+  justify-content: center;
+}
+.navbar a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 6px 16px;
+  border-radius: 6px;
+  transition: background 0.2s;
+}
+.navbar a.active, .navbar a:hover {
+  background: #4caf50;
+  color: #fff;
+}
+.tab-nav {
+  margin-bottom: 18px;
+  display: flex;
+  gap: 12px;
+}
+.tab-nav a {
+  text-decoration: none;
+  color: #222;
+  padding: 4px 12px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+.tab-nav a.active, .tab-nav a:hover {
+  background: #4caf50;
+  color: #fff;
+  border-color: #4caf50;
+}
